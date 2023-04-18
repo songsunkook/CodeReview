@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-group, .input-content, .table-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+table{
+    width: 500px;
+    border: 1px solid black;
+}
+
+th, td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+div input{
+    margin-left: 5px;
+    margin-right: 5px;
+}
